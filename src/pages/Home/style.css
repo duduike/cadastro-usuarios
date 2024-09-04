@@ -47,11 +47,29 @@ form {
         padding-left: 10px;
         outline: none;
     }
+
+    & textarea{
+        border: 1px solid #48456C;
+        border-radius: 15px;
+        background-color: #363653;
+        color: #fff;
+        font-size: 16px;
+        padding: 10px;
+        height: 120px;
+        outline: none;
+        resize: none;
+    }
+
+    & textarea::placeholder {
+        transform:  translateY(35px);
+    }
+
 }
 
 .card {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #2E2D4E;
     margin: 10px;
     padding: 10px;
